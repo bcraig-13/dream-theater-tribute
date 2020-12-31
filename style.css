@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Dreams-of-theater;
+  src: url("Assets/Dreamsoftheatre-5Vja.ttf");
+}
+
+.dt-font {
+  font-family: Dreams-of-theater;
+  font-size: 50px;
+}
+
+.nav-link {
+  font-family: Dreams-of-theater;
+  font-size: 25px;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+h1,
+h2 {
+  font-family: Dreams-of-theater;
+}
+
+.card-header {
+  background-color:#c9af28;
+}
+
