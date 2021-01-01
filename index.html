@@ -11,11 +11,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="img/png" href="Assets/favicon.jpg">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <a class="navbar-brand dt-font">Dream Theater</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top navigation">
+      <a class="navbar-brand dt-font"><img src="Assets/emblem.png" alt="Dream Theater Emblem" style="height:50px; width:50px;">  Dream Theater</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -49,17 +50,17 @@
         </ul>
       </div>
     </nav>
-    <div class="container about-section" style="display: none">
+    <div class="container" id="aboutSection">
       <div class="row">
         <div class="col-lg-12">
           <h1>My Favorite Band</h1>
 
           <p>
             I've been a fan of Dream Theater for several years now. My dad often
-            listened to them when I was a kid, but I was too young to comprehend
-            their sheer awesomeness wenever he would pop in one of their albums.
+            listened to them when I was a kid but I was too young to comprehend
+            their sheer awesomeness whenever he would pop in one of their albums.
             Funny enough, it wasn't until the game "Band Hero" came out in 2009
-            that I started listening to them on my own. I was 20 at the time and
+            that I started listening to them on my own. I was 21 at the time and
             starting to explore music a lot more. That game had a great list of
             artists and songs, and I ended up listening to a lot of musicians
             from that soundtrack. One of the final songs in the game was Dream
@@ -112,9 +113,9 @@
             came to finding songs I liked from a particular artist. Dream
             Theater made me start to listen to albums in their entirety. I grew
             up in the era where you could start to buy songs individually or
-            search for them through more risky and unsavory methods, *tucks
-            limewire under the bed in shame*, so listening to an album felt
-            weird. Instead of having dedicated albums or playlists on my ipod, I
+            search for them through more risky and unsavory methods, (tucks
+            limewire under the bed in shame) so listening to an entire album felt
+            weird. I was also a dumb kid and didn't have the attention span or appreciation for music. Instead of having dedicated albums or playlists on my ipod, I
             would often shuffle everything. But Dream Theater made me want to
             listen to more, I needed to have more. And now I own all of their
             studio albums and I still crave more.
@@ -125,13 +126,13 @@
             full-time work, classes, and homework I'm putting what I've learned
             to use and making a website about Dream Theater. Use the options on
             the navbar up top to learn more about the members of the band and my
-            analysis on each of their studio albums.
+            thoughts on each of their studio albums.
           </p>
         </div>
       </div>
     </div>
 
-    <div class="container members-section" style="display: none">
+    <div class="container" id="memberSection" style="display: none">
       <h1>Current Members</h1>
       <br />
       <div class="row">
@@ -341,8 +342,10 @@
         </div>
       </div>
     </div>
+    
 
-    <div class="container albums-section">
+    <div class="container" id="albumSection" style="display: none">
+      <p style="margin-top:30px;">Below are all the studio albums released by Dream Theater. Expand each one to see more info and click the album image to visit the wikipedia pages to learn more about them. I've also left out their very first album from when they went by Majesty since it's not technically a Dream Theater album.</p>
       <div class="row">
         <div class="col-lg-12">
           <div class="accordion" id="accordionExample">
@@ -354,7 +357,7 @@
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapseOne"
                   >
                     When Dream and Day Unite - 1989
@@ -367,7 +370,7 @@
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body when-d-and-d">
                   <p>
                     <a
                       href="https://en.wikipedia.org/wiki/When_Dream_and_Day_Unite"
@@ -378,7 +381,7 @@
                         style="margin: 2%; float: left" /></a
                     >Their debut album isn't bad, it's just different from the
                     rest of their work. It's the only album with Charlie
-                    Dominici at vocals and overall it's not that bad. I think
+                    Dominici at vocals and overall it's alright. I think
                     fans might say this is the worst album only because it's so
                     different to what their used to hearing. It's got a very
                     80's metal vibe to it, but being that it's from the 80's the
@@ -388,11 +391,11 @@
                     anything, just different.
                   </p>
                   <p>
-                    While there are some alright songs on this album, I'd
+                    While there are some alright songs on this album I'd
                     recommend skipping it entirely. It would be much better,
                     especially for those that are just getting into Dream
                     Theater, to start with other albums. I'd say to save this
-                    one for last if you've heard everything they have and want
+                    one for last if you've heard everything they have and you want
                     more. Other than that, the album is just okay.
                   </p>
                 </div>
@@ -420,7 +423,7 @@
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body i-and-w">
                   <p>
                     <a
                       href="https://en.wikipedia.org/wiki/Images_and_Words"
@@ -470,7 +473,7 @@
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body awake">
                   <p>
                     <a
                       href="https://en.wikipedia.org/wiki/Awake_(Dream_Theater_album)"
@@ -484,7 +487,7 @@
                     if it's the sound quality or what, but something just sounds
                     <i>off</i> about this album. Still, it's got some great
                     songs on it. But also some not so great ones. The opening
-                    track "6AM" is great and gets you pumped, "Caught In a Web"
+                    track "6:00" is great and gets you pumped, "Caught In a Web"
                     is pretty good, and the instrumental "Erotomania" is pretty
                     crazy. But damn, the last three tracks kick major ass.
                     "Lifting Shadows Off a Dream" is melodic and calm. "Scarred"
@@ -526,11 +529,11 @@
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body seasons">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/A_Change_of_Seasons" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Dtheater-change-seasons.jpg/220px-Dtheater-change-seasons.jpg" alt="A Change of Seasons" style="margin: 2%; float: left" /></a
-                    >This album is their only EP released and also marks the debut of Derek Sherinian. It's comprised of two discs with one being a collection of live cover songs which are just okay. The real star of this show is on the other disc which contains the title track coming in at 23 minutes. "A Change of Seasons" is aboslutely amazing. It might sound like a tough sell to listen to a 23 minute song, but damn is it one amazing journey. There's a very good live version of this song that was played on their <i>Live Scenes From New York</i> tour that's my preferred wat of listening to the song. The lyrics take you through the cycle of life, and did I mention it's amazing? I just wanted to make sure you get it.</p>
+                    >This album is their only EP released and also marks the debut of Derek Sherinian. It's comprised of two discs with one being a collection of live cover songs which are just okay. The real star of this show is on the other disc which contains the title track coming in at 23 minutes. "A Change of Seasons" is aboslutely amazing. It might sound like a tough sell to listen to a 23 minute song, but damn is it one amazing journey. There's a very good live version of this song that was played on their <i>Live Scenes From New York</i> tour that's my preferred way of listening to the song. The lyrics take you through the cycle of life, and did I mention it's amazing? I just wanted to make sure you get it.</p>
                     <p>While not technically a studio album, I wanted to include it on the list since I thought it would be a crime not to bring up this song. You should give the cover songs a listen too, but the main attraction is what this EP is all about.</p>
                 </div>
               </div>
@@ -557,11 +560,11 @@
                 aria-labelledby="headingFive"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body falling">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/Falling_into_Infinity" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Dream_Theater_-_Falling_into_Infinity_Album_Cover.jpg/220px-Dream_Theater_-_Falling_into_Infinity_Album_Cover.jpg" alt="Falling Into Infinity" style="margin: 2%; float: left" /></a
-                    >Many fans consider this to be their worst album and I completely disagree. I think what people a disappointed about with this album is how mellow it is, especially after coming off of <i>Awake</i>. There's also a lot of stories about the band not being happy with the record label or something, but I fell like that story changes every time it's told. "Peruvian Skies", or what some call <i>Petruccian Skies</i> due to the excellent guitar playing is a great track. "Hells Kitchen" and "Lines in the Sand" are really great too. But man, "Take Away My Pain" and "Trial of Tears" give me some serious goosebumps. For what most fans consider their worst album, it sure has some great tracks on it.</p>
+                    >Many fans consider this to be their worst album and I completely disagree. I think why people are disappointed with it is because of how mellow it is, especially after coming off of <i>Awake</i>. There's also a lot of stories about the band not being happy with the record label or something, but I feel like that story changes every time it's told. "Peruvian Skies", (or what some call <i>Petruccian Skies</i> due to the excellent guitar playing) is a great track and very relaxing. "Hells Kitchen" and "Lines in the Sand" are really great too. But man, "Take Away My Pain" and "Trial of Tears" give me some serious goosebumps. For what most fans consider their worst album it sure has some great tracks on it.</p>
                     <p>I definitely recommend <i>Falling Into Infinity</i>. Just don't go in expecting some hard or fast metal, cause that's just not what this album is about. It's pretty calm and relaxing. And sometimes that's just what one needs.</p>
                 </div>
               </div>
@@ -588,12 +591,12 @@
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body scenes">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/Metropolis_Pt._2:_Scenes_from_a_Memory" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Dream_Theater_-_Metropolis_Pt._2-_Scenes_from_a_Memory.jpg/220px-Dream_Theater_-_Metropolis_Pt._2-_Scenes_from_a_Memory.jpg" alt="Scenes From a Memory" style="margin: 2%; float: left" /></a
-                    >A fan favorite and probably my #1 favorite, and maybe even one of the greatest albums of all time, is <i>Metropolis Part 2: Scenes From a Memory</i>, or just <i>Scenes From a Memory</i>. A sequel of sorts to a track off of <i>Images and Words</i>, this concept album plays out like a movie telling the story of a man named Nocholas who keeps having nightmares of a hauntingly familiar girl. he goes to see a hypnotist to find out what these dreams are and most importantly, who the girl is and where he knows her from. This album is non-stop kick-assery and I can't say enough about. It's best to listen to this album in one sitting so you can piece the story together for yourself and find out who the msyterious Victoria is and what happened to her.</p>
-                    <p>Sherinian parted just after one album, but with Jordan Rudess joining them for this and helping get it started, it's proof enough that Rudess was what the band needed. It would be a disservice to spoil the story of the album, so if you're desperate to know just go listen to it. Only read up on it after so you can fill in the blanks, but god damn is this one of the greatest albums I've ever heard.</p>
+                    >A fan favorite and probably my #1 favorite, (and maybe even one of the greatest albums of all time) is <i>Metropolis Part 2: Scenes From a Memory</i>, or just <i>Scenes From a Memory</i>. A sequel of sorts to a track off of <i>Images and Words</i>, this concept album plays out like a movie telling the story of a man named Nicholas who keeps having nightmares of a hauntingly familiar girl. He goes to see a hypnotist to find out what these dreams are and most importantly, who the girl is and where he knows her from. This album is non-stop kick-assery and I can't say enough about. It's best to listen to this album in one sitting so you can piece the story together for yourself and find out who the msyterious Victoria is and what happened to her.</p>
+                    <p>Sherinian parted just after one album, but with Jordan Rudess joining them for this and helping get it started, it's proof enough that Rudess was what the band needed. It would be a disservice to spoil the story of the album, so if you're desperate to know just go listen to it. Only read up on it afterwards so you can fill in the blanks. Damn this one of the greatest albums I've ever heard. 2019 marked the 20th anniversary of the album, and during their tour they played the whole thing from start to finish. What an amazing show.</p>
                 </div>
               </div>
             </div>
@@ -619,12 +622,12 @@
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body six-deg">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/Six_Degrees_of_Inner_Turbulence" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Dream_Theater_-_Six_Degrees_of_Inner_Turbulence.jpg/220px-Dream_Theater_-_Six_Degrees_of_Inner_Turbulence.jpg" alt="Six Degrees of Inner Turbulence" style="margin: 2%; float: left" /></a
-                    >This album tends to be a little divisive among fans. Some only like half the album, and which half that is varies form person to person. The album is on two discs with the first being a collection of songs that explore different themes in life, while the second is a concept album that deals with different metal illnesses. I'm not really a fan of the concept album portion, but I think the first disc as some great tracks on it. "The Great Debate" is pretty good, but the opening track, "The Glass Prison", is one of their all-time bests.</p>
-                  <p>The album is just okay in my opinion. I think Iw as partially let down because I thought the concept album would be another story like <i>Scenes From a Memory</i>, but it's not like that at all. Not bad, but not all that rgeat either. "The Glass Prison" is the first song in a series about Portnoy's recovery form alcoholism. The other songs are spread across the next several albums, but this one is the best of the group. I also want to point out that all of Dream Theater's covers are super cool and thought provoking, but the cover for this album feels really boring when compared to the rest since it's just the title. I sort of wish they had done something with broken glass around the title with reflections of the "six degrees" featured in the second disc.</p>
+                    >This album tends to be a little divisive among fans. Some only like half the album, and which half that is varies from person to person. The album is on two discs with the first being a collection of songs that explore different themes in life, while the second is a concept album that deals with different metal illnesses. I'm not really a fan of the concept album portion, but I think the first disc has some great tracks on it. "The Great Debate" is pretty good, but the opening track, "The Glass Prison", is one of their all-time bests.</p>
+                  <p>The album is just okay in my opinion. I think I was partially let down because I thought the concept album would be another story like <i>Scenes From a Memory</i>, but it's not like that at all. Not bad, but not all that great either. "The Glass Prison" is the first song in a series about Portnoy's recovery from alcoholism. The other songs are spread across the next several albums, but this one is the best of the group. I also want to point out that all of Dream Theater's covers are super cool and thought provoking, but the cover for this album feels really boring when compared to the rest since it's just the title. I sort of wish they had done something with broken glass around the title with reflections of the "six degrees" featured in the second disc.</p>
                 </div>
               </div>
             </div>
@@ -650,11 +653,11 @@
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body tot">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/Train_of_Thought_(Dream_Theater_album)" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Dream_Theater_-_Train_of_Thought.jpg/220px-Dream_Theater_-_Train_of_Thought.jpg" alt="Train of Thought" style="margin: 2%; float: left" /></a
-                    >Definitely their hardest album, <i>Train of Thought</i> doesn't have that many tracks but kicks serious ass from start to finish. "As I Am" is a great and heavy opener for the album, and "This Dying Soul" is the second of five of Portnoy's 12 steps saga and is great song on it's own. "Honor Thy Father" and "In the Name of God" are my personal favorites on the album, and we can forget "Stream of Conciousness" which is a crazy eleven minute instrumental that serves as an opening for the final track. Seriously, this album is hard as hell and easily in my top five.</p>
+                    >Definitely their hardest album, <i>Train of Thought</i> doesn't have that many tracks but kicks serious ass from start to finish. "As I Am" is a great and heavy opener for the album, and "This Dying Soul" is the second of five of Portnoy's 12 steps saga and is great song on it's own. "Honor Thy Father" and "In the Name of God" are my personal favorites on the album, and we can't forget "Stream of Conciousness" which is a crazy eleven minute instrumental that serves as an opening for the final track. Seriously, this album is hard as hell and easily in my top five.</p>
                     <p>"Vacant" is probably the weakest track on this album only because the rest is just so damn good. I first heard this album when I was 20 or so and only liked one or two songs. I didn't try listening to it again until several years later and hate myself for not liking it sooner.</p>
                 </div>
               </div>
@@ -681,11 +684,11 @@
                 aria-labelledby="headingNine"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body octa">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/Octavarium" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Dream_Theater_-_Octavarium.jpg/220px-Dream_Theater_-_Octavarium.jpg" alt="Octavarium" style="margin: 2%; float: left" /></a
-                    ><i>Octavarium</i> opens with the third part of Portnoy's 12 steps saga, "The Root of All Evil". I think this album's pretty good, especially "These Walls" and "Panic Attack". The rest of the album is pretty decent, and I like "I Walk Beside You" a lot too. The worst track is unfortunately the final one which happens to be the title track. "Octavarium is 24 minutes long, but I think the first 3 or 4 is just the sound of the wind. It's got a really slow start and just doesn't pack the same emotional punch that their other long epic, "A Change of Seasons" does. Still, as a whole I'd say it's worth a listen anyway.</p>
+                    ><i>Octavarium</i> opens with the third part of Portnoy's 12 steps saga, "The Root of All Evil". I think this album's pretty good, especially "These Walls" and "Panic Attack". The rest of the album is pretty decent, and I like "I Walk Beside You" a lot too. The worst track is unfortunately the final one which happens to be the title track. "Octavarium" is 24 minutes long, but I think the first 3 or 4 is just the sound of the wind. It's got a really slow start and just doesn't pack the same emotional punch that their other long epic, "A Change of Seasons" does. Still, as a whole I'd say it's worth a listen anyway.</p>
                     <p>You could give the title track a shot if you've got 24 minutes to kill, but out of their all their epics, "Octavarium" is easily their weakest one. The album gets its name from something to do with octaves and their previous albums, but I don't know enough about music to understand it.</p>
                 </div>
             </div>
@@ -711,12 +714,12 @@
                 aria-labelledby="headingTen"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body system">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/Systematic_Chaos" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Dream_Theater_-_Systematic_Chaos.jpg/220px-Dream_Theater_-_Systematic_Chaos.jpg" alt="Systematic Chaos" style="margin: 2%; float: left" /></a
-                    >Their 2007 album was another one of those occasions where I didn't really care ofr it at first but really liked it when I listened to it again several years later. While not exactly a concept album, <i>Systematic Chaos</i> is comprised of individual stories. "In the Presence of Enemies" parts 1 and 2 are great open/closer for the album, but I prefer to listen to them back to back. I feel it's a bit underrated, but "Forsaken" is a pretty kick ass song too. Part 4 of Portnoy's 12 steps saga is on this album as "Repentance" and I think it's the worst one of the group. Mostly because the song is ten minutes long and it's kind of slow. I feel like the tempo and the energy should pick up at some point during the song, but it never happens and it's kind of a bummer.</p>
-                    <p>Overall, it's worth a listen. The content of the songs makes me wish this was a concept album with a linear story similar to <i>Scenes From a Memory</i>, but it would be some time before Dream Theater attempted that again. I could definitely see a cool story revolving around a fallen being serving a dark master and being the cause for the world's downfall. "The Dark Eternal Night" has a great chorus that's perfect for the kind of idea.</p>
+                    >Their 2007 album was another one of those occasions where I didn't really care for it at first but really liked it when I listened to it again several years later. While not exactly a concept album, <i>Systematic Chaos</i> is comprised of individual stories. "In the Presence of Enemies" parts 1 and 2 are great open/closer for the album, but I prefer to listen to them back to back. I feel it's a bit underrated, but "Forsaken" is a pretty kick ass song too. Part 4 of Portnoy's 12 steps saga is on this album as "Repentance" and I think it's the worst one of the group. Mostly because the song is ten minutes long and it's kind of slow. I feel like the tempo and the energy should pick up at some point during the song, but it never happens and it's kind of a bummer.</p>
+                    <p>This is a pretty good album. The content of the songs makes me wish this was a concept album with a linear story similar to <i>Scenes From a Memory</i>, but it would be some time before Dream Theater attempted that again. I could definitely see a cool story revolving around a fallen being serving a dark master and being the cause for the world's downfall. "The Dark Eternal Night" has a great chorus that's perfect for the kind of idea.</p>
                 </div>
             </div>
 
@@ -741,11 +744,11 @@
                 aria-labelledby="headingEleven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body blk-clouds">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/Black_Clouds_%26_Silver_Linings" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Dream_Theater_-_Black_Clouds_%26_Silver_Linings.jpg/220px-Dream_Theater_-_Black_Clouds_%26_Silver_Linings.jpg" alt="Black Clouds & Silver Linings" style="margin: 2%; float: left" /></a
-                    >One of my top five albums from them and another short one, <i>Black Clouds & Silver Linings</i> is a kick ass tenth album for the group. It starts off with the amazing "A Nightmare to Remember" and then dives into the crazy "A Rite of Passage". "Wither" is kind of a weird addition to such a heavy album, but there's actually a version with just the piano that's really enojoyable and I feel fits the song better. Portnoy's 12 step saga concludes with "The Shattered Fortress" which is a fantastic ending for the journey that is kind of a medley of the previous songs. It's pretty cool to listen to all them back to back. Then, holy crap, the album finishes with "The Count of Tuscany". An 18 minute epic that tells a fascinating story based on a real experience from John Petrucci. Damn that song gives me chills</p>
+                    >One of my top five albums from them and another short one, <i>Black Clouds & Silver Linings</i> is the kick ass tenth album for the group. It starts off with the amazing "A Nightmare to Remember" and then dives into the crazy "A Rite of Passage". "Wither" is kind of a weird addition to such a heavy album, but there's actually a version with just the piano that's really enojoyable and I feel fits the song better. Portnoy's 12 step saga concludes with "The Shattered Fortress" which is a fantastic ending for the journey that is kind of a medley of the previous songs. It's pretty cool to listen to all them back to back. Then, holy crap, the album finishes with "The Count of Tuscany". An 18 minute epic that tells a fascinating story based on a real experience from John Petrucci. Damn that song gives me chills</p>
                   <p>There was also a bonus disc sold in special editions that had a few cover songs. They're alright, but I feel Dream Theater is at their best when they do their own thing. Sadly, this was Mike Portnoy's final album with the band. I was heartbroken to see him go and feared they wouldn't be able to find anyone of his caliber to fill that spot. Portnoy has worked on various projects over the years and I think he's still the best drummer there is.</p>
                 </div>
             </div>
@@ -771,12 +774,12 @@
                 aria-labelledby="headingTwelve"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body dram-turn">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/A_Dramatic_Turn_of_Events" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/DTOE_DT.jpg/220px-DTOE_DT.jpg" alt="A Dramatic Turn of Events" style="margin: 2%; float: left" /></a
-                    >After a pretty cool <a href="https://www.youtube.com/watch?v=DZ3DMDxdpfM" target="_blank">2 part audition for new drummers</a>, Dream Theater acquired Mike Mangini to fill the deep hole left by Mike Portnoy. I was really worried at first cause in my mind, who the hell was going to be better than Mike Portnoy? The answer: Mike Mangini. While he wasn't involved in writing any the music for their 2011 album, he really stepped up and proved he was the right man for the job. <i>A Dramatic Turn of Events</i> almost feels like a reset for the band and I think it has the same kind of sound as <i>Images and Words</i>. "On the Backs of Angels" reminds me a lot of "Pull Me Under", while "This Is the Life" is a little more chill but still a good listen. Then there's the one-two punch that is "Far From Heaven" and the incredible "Breaking All Illusions". Damn those songs are excellent.</p>
-                  <p>The rest of the album is pretty good, but it doesn't quite hit the same escellence that <i>Images and Words</i> did. The album is great despite some fan criticism. Sure, they don't do anything particularly new here, but I think that's what they were going for. They had to go back to the beginning to sort of find out who they were with the addition of Mangini, and I'm fine with that.</p>
+                    >After a pretty cool <a href="https://www.youtube.com/watch?v=DZ3DMDxdpfM" target="_blank" style="color:white;">2 part audition for new drummers</a>, Dream Theater acquired Mike Mangini to fill the deep hole left by Mike Portnoy. I was really worried at first cause in my mind, who the hell was going to be better than Mike Portnoy? The answer: Mike Mangini. While he wasn't involved in writing any the music for their 2011 album, he really stepped up and proved he was the right man for the job. <i>A Dramatic Turn of Events</i> almost feels like a reset for the band and I think it has the same kind of sound as <i>Images and Words</i>. "On the Backs of Angels" reminds me a lot of "Pull Me Under", while "This Is the Life" is a little more chill but still a good listen. Then there's the one-two punch that is "Far From Heaven" and the incredible "Breaking All Illusions". Damn those songs are excellent.</p>
+                  <p>The rest of the album is pretty good, but it doesn't quite hit the same excellence that <i>Images and Words</i> did. The album is great despite some fan criticism. Sure, they don't do anything particularly new here, but I think that's what they were going for. They had to go back to the beginning to sort of find out who they were with the addition of Mangini, and I'm fine with that.</p>
                 </div>
             </div>
 
@@ -801,12 +804,12 @@
                 aria-labelledby="headingThirteen"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body illum">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/Dream_Theater_(album)" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/DreamTheater2013AlbumCover.jpg/220px-DreamTheater2013AlbumCover.jpg" alt="Illumination Theory" style="margin: 2%; float: left" /></a
-                    >They decided to go with a self-titled name for their twelfth album. I'm not really a fan of it unless it's a debut album, so I've taken to naming it after the epic finisher like some of their other albums have in the past. This album was Mangini's debut with song-writing, and damn is it good--one of my top five for sure. Every song on the album is absolute perfection. My personal favorites are "The Enemy Inside", "Behind the Veil", and "Along For the Ride". It really is an amazing experience from start to finish and has one of the best covers in their repitoire.</p>
-                  <p>The album ends with their latest epic "Illumination Theory", and holy crap is it good. Coming in at 22 minutes, this beast of a song features an orchestra and covers topics that people live, die, and kill for. The whole thing has a sort of life of the universe fell as you listen to it. I really can't recoomend this album enough. I feel it's really overlooked in the fanbase and deserves more attention. I really do with they had just called the album "Illumination Theory", though.</p>
+                    >They decided to go with a self-titled name for their twelfth album. I'm not really a fan of that naming convention unless it's for a debut album, so I've taken to naming it after the epic finisher like <i>Octavarium</i> or <i>A Change of Seasons</i> did in the past. This album was Mangini's debut with song-writing, and damn is it good--one of my top five for sure. Every song on the album is absolute perfection. My personal favorites are "The Enemy Inside", "Behind the Veil", and "Along For the Ride". It really is an amazing experience from start to finish and has one of the best album covers in their repitoire.</p>
+                  <p>The album ends with their latest epic "Illumination Theory", and holy crap is it good. Coming in at 22 minutes, this beast of a song features an orchestra and covers topics that people live, die, and kill for. The whole thing has a sort of life of the universe feel as you listen to it. I really can't recommend this album enough. I feel it's really overlooked among the fanbase for some reason and deserves more attention. I really do wish they had just called the album "Illumination Theory", though.</p>
                 </div>
             </div>
 
@@ -831,12 +834,12 @@
                 aria-labelledby="headingFourteen"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body astonish">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/The_Astonishing" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/DreamTheaterTheAstonishing.png/220px-DreamTheaterTheAstonishing.png" alt="The Astonishing" style="margin: 2%; float: left" /></a
-                    >2016 was a really crappy year for everyone, but Dream Theater made things a little better with their newest concept album <i>The Astonishing</i>. While it doesn't reach the same heights as <i>Scenes From a Memory</i>, it's still an amazing experience and criminally underrated by the fans. While <i>Scenes From a Memory</i> is like a movie, <i>The Astonishing</i> is more like a musical play. I think that's fantastic, but I understand how that might not be for everyone. This awesome story takes place in a dystopian, sci-fi/fantasy world where music no longer exists. A man named Gabriel has a natural ability to make music and inspires the masses. But King Nafaryus feels threatened by him and plots to have him killed.</p>
-                  <p>This story is pakced with over two hours of music and is filled with tons of themes like rebellion, love, and betrayal. Some have compared it to Rush's 1976 album <i>2112</i>, and while the overall theme may be kind of similar, I think <i>The Astonishing</i> is much better. If you like musicals and stage plays, give this one a shot. It might be a little hard to figure out which character is singing what song at what time on your first listen, but I suggest checking out the wikipedia page by clicking on the album picture if you really want to get into it.</p>
+                    >2016 was a really crappy year for everyone, but Dream Theater made things a little better with their newest concept album <i>The Astonishing</i>. While it doesn't reach the same heights as <i>Scenes From a Memory</i>, it's still an amazing experience and criminally underrated by the fans. While their first concept album is told like a movie, <i>The Astonishing</i> is something more like a musical play. I think that's fantastic but I understand how that might not be for everyone. This awesome story takes place in a dystopian, sci-fi/fantasy world where music no longer exists. A man named Gabriel has a natural ability to make music and inspires the masses. But King Nafaryus feels threatened by him and plots to have him killed to maintain the status quo.</p>
+                  <p>This story is packed with over two hours of music and is filled with tons of themes like rebellion, love, and betrayal. Some have compared it to Rush's 1976 album <i>2112</i>, and while the overall theme may be kind of similar I think <i>The Astonishing</i> is much better. If you like musicals and stage plays, give this one a shot. It might be a little hard to figure out which character is singing what song at what time on your first listen, but I suggest checking out the wikipedia page by clicking on the album picture if you really want to get into it.</p>
                 </div>
             </div>
 
@@ -861,12 +864,12 @@
                 aria-labelledby="headingFifteen"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-body distance">
                   <p>
                     <a href="https://en.wikipedia.org/wiki/Distance_over_Time" target="_blank"
                       ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Dream_Theater_Distance_Over_Time.png/220px-Dream_Theater_Distance_Over_Time.png" alt="Distance Over Time" style="margin: 2%; float: left" /></a
-                    >Text Here</p>
-                  
+                    >The album art for their most recent album is my favorite of the bunch. The image of a mechanical hand holding a human skull is a perfect match for the title <i>Distance Over Time</i>. This album is damn good too. Nearly every track kicks some serious ass with "At Wit's End" being my personal favorite. In fact, the only songs I don't really care for are "Pale Blue Dot" and "Viper King". They're okay, they just don't have the same <i>oomph</i> that the rest of the album has. Some may say this is a fairly average album, but I think there's a lot of good stuff packed into it.</p>
+                  <p>The year this album came out also marked the 20th anniversary of <i>Scenes From a Memory</i>. I was fortunate enough to see them in concert where they played several songs from <i>Distance Over Time</i>, seven other songs from various albums, and the entirety of <i>Scenes From a Memory</i>. Holy shit was that concert amazing. It also happened to be the first show on the tour, so they were at their best when I saw them. Now I will never miss a show from them no matter how expensive the tickets are.</p>
                 </div>
             </div>
           </div>
@@ -874,6 +877,7 @@
       </div>
     </div>
 
+    <script src="script.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

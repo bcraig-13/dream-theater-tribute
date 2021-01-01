@@ -3,6 +3,11 @@
   src: url("Assets/Dreamsoftheatre-5Vja.ttf");
 }
 
+body {
+  background-color:black;
+  color:white;
+}
+
 .dt-font {
   font-family: Dreams-of-theater;
   font-size: 50px;
@@ -13,9 +18,16 @@
   font-size: 25px;
 }
 
+.navigation {
+  background-color: black !important;
+  border-style:outset;
+  border-color: whitesmoke;
+}
+
 p {
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 h1,
@@ -23,7 +35,85 @@ h2 {
   font-family: Dreams-of-theater;
 }
 
+.card {
+  background-color: black;
+}
+
 .card-header {
   background-color:#c9af28;
 }
 
+.when-d-and-d {
+  background-color:#2a1754;
+  color:#5abdd6;
+}
+
+.i-and-w {
+  background-color:#ab0707;
+  color:black;
+}
+
+.awake {
+  background-color:black;
+  color:white;
+}
+
+.seasons {
+  background-color:#0f3dbd;
+  color:white;
+}
+
+.falling {
+  background-color:#011347;
+  color:#e68b02;
+}
+
+.scenes {
+  background-color:black;
+  color:#fcef3a;
+}
+
+.six-deg {
+  background-color:#cfcfcf;
+  color:black;
+}
+
+.tot {
+  background-color:black;
+  color:white;
+}
+
+.octa {
+  background-color:#bdb1b1;
+  color:black;
+}
+
+.system {
+  background-color:black;
+  color:red;
+}
+
+.blk-clouds {
+  background-color:black;
+  color:#dbd0d0;
+}
+
+.dram-turn {
+  background-color:#0268a3;
+  color:black;
+}
+
+.illum {
+  background-color:black;
+  color:#94999c;
+}
+
+.astonish {
+  background-color:#4e626e;
+  color:#c9af28;
+}
+
+.distance {
+  background-color:#f2f2f2;
+  color:black;
+}
