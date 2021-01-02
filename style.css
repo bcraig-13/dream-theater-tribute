@@ -25,7 +25,7 @@ body {
 
 .navigation {
   background-color: black !important;
-  border-style:outset;
+  border-bottom:outset;
   border-color: whitesmoke;
 }
 
