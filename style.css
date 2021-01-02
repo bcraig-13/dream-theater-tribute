@@ -29,14 +29,15 @@ body {
   border-color: whitesmoke;
 }
 
-p {
+p, ol, li {
   text-align: justify;
   font-size: 18px;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 h1,
-h2 {
+h2,
+.footer-text {
   font-family: Dreams-of-theater;
 }
 
