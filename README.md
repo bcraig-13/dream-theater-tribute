@@ -2,6 +2,7 @@
 
 I'm currently taking a coding extension course and wanted to create a website using the skills 
 I've learned so far.
+https://bcraig-13.github.io/dream-theater-tribute/
 
 ## ABOUT
 
