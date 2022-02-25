@@ -12,7 +12,7 @@ wikipedia pages.
 
 There is only one html file that holds the index. The different "pages" containing the information about
 the members and albums is hidden by default and changes the display when clicking on one of the navbar 
-links. Clicking on one will set the targeted link to active and remove active from the remaining two.
+links. Clicking on one will set the targeted link to active and remove active from the remaining two..
 
 ## BUILT WITH
 
